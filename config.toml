@@ -11,8 +11,15 @@ enableGitInfo = true
 
 # Language settings
 
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage = ""
+# defaultContentLanguageInSubdir = false
+
+hasCJKLanguage = true
+
+[languages]
+[languages.en]
+contentDir = "content/"
+
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
@@ -106,7 +113,7 @@ github_repo = "https://github.com/airgull/airgull-doc"
 github_project_repo = "https://github.com/airgull/airgull-doc"
 
 # Specify a value here if your content directory is not in your repo's root directory
-github_subdir = "/"
+github_subdir = "content"
 
 time_format_blog = "2006-01-02 15:04 MST"
 time_format_default = "2006-01-02 15:04 MST"
